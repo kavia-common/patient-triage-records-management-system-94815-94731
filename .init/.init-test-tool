@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/patient-triage-records-management-system-94815-94731/backend_triagens"
+}
