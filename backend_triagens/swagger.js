@@ -4,10 +4,15 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'My Express API',
+      title: 'Patient Triage Records API',
       version: '1.0.0',
-      description: 'A simple Express API documented with Swagger',
-    }
+      description: 'REST API for managing patients and triage records in a hospital setting',
+    },
+    tags: [
+      { name: 'Health', description: 'Service health' },
+      { name: 'Patients', description: 'Patient CRUD' },
+      { name: 'Triages', description: 'Triage CRUD' },
+    ],
   },
   apis: ['./src/routes/*.js'], // Path to the API docs
 };
